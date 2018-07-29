@@ -1,0 +1,243 @@
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    /* display: inline-block; */
+    transition: top 0.8s;
+    z-index: 1;
+}
+nav a{
+    color: white;
+    padding: 0.5rem;
+}
+nav a:hover{
+    color: silver;
+    font-size: 1em;
+}
+li a{
+    color: White;
+    padding: 0.5rem;
+}
+li a:hover{
+    color: silver;
+    font-size: 1em;
+}
+nav h2{
+    font-family: 'Playball', cursive;
+}
+.header{
+    box-sizing: border-box;
+    background-image: url("../../assets/images/beauty2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    transform-style: inherit;
+}
+.header::before{
+    position: absolute;
+    display: block;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+.header *{
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding: 1em 0;
+    color: black;
+}
+#content h1{
+    font-size: 2rem;
+    font-family: 'Playball', cursive;
+}
+
+#about{
+    width: 100%;
+    /* height: fit-content; */
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.desc{
+    height: fit-content;
+    width: 100%;
+    border: 5px solid silver;
+    /* border-right: 0.5rem solid silver; */
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+#info{
+    margin-top: 2rem;
+    color: white;
+}
+.services{
+    margin-top: 1rem;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.block{
+    padding: 1rem;
+    width: 48%;
+    display: inline-block;
+    color: white;
+}
+#container{
+    background-image: url("../../assets/images/black-&-white-wallpapers.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+}
+#container::before{
+    position: absolute;
+    display: block;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+.middle{
+    float: center;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    padding: 2rem 5rem 2rem 5rem;
+    background-color: rgb(0, 0, 0);
+    background-size: fit-content;
+    height: fit-content;
+    width: 100%;
+    height: fit-content;
+}
+.middle h1{
+    text-align: center;
+    /* font-family: 'Glegoo', serif; */
+    font-family: 'Playball', cursive;
+    color: whitesmoke;
+}
+.middle img{
+    max-height: 25rem;
+    max-width: 100%;
+    float: center;
+    border-radius: 15%;
+}
+.carousel{
+    width: 80%;
+    margin-left: 10%;
+}
+#teamText{
+    color: black;
+}
+.text{
+    color: hotpink;
+}
+.testimonials{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5rem;
+}
+.review{
+    height: fit-content;
+    max-width: 22%;
+    display: inline-block;
+    padding-left: 4rem;
+}
+#testText{
+    display: inline;
+    text-align: center;
+    font-size: 1.5em;
+}
+#test{
+    font-family: 'Playball', cursive;
+    font-size: 3rem;
+}
+.testimonials ul{
+    list-style-type: none;
+    text-align: left;
+}
+.details{
+    display: inline-block;
+}
+.details img{
+    border-radius: 50%;
+}
+.pageBottom{
+    height: fit-content;
+    width: 100%;
+    background-color: red;
+}
+#hours{
+    width: 45%;
+    text-align: center;
+    color: white;
+    padding-bottom: 10rem;
+}
+#contact{
+    width: 45%;
+    height: 40%;
+}
+.bottom{
+    display: inline-block;
+}
+.footer{
+    background-image: url("../../assets/images/misty-amsterdam.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.footer::before{
+    position: absolute;
+    display: block;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+/* .content{
+    padding: 2rem;
+    color: white;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+.closing{
+    width: 48%;
+    display: inline-block;
+    
+} */
+agm-map{
+    width: 350px;
+    height: 320px;
+    position: relative;
+    left: 50%;
+    bottom: 25%;
+}
+.hours{
+    height: fit-content;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 5rem;
+    margin-left: 30%
+}
+table{
+    
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 24%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}

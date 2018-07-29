@@ -1,0 +1,27 @@
+/* nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.8s;
+    z-index: 1;
+}
+nav a{
+    color: white;
+    padding: 0.5rem;
+}
+nav a:hover{
+    color: silver;
+    font-size: 1em;
+}
+li a{
+    color: White;
+    padding: 0.5rem;
+}
+li a:hover{
+    color: silver;
+    font-size: 1em;
+}
+nav h2{
+    font-family: 'Playball', cursive;
+} */
